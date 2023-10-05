@@ -2,9 +2,9 @@ import operacoes.Soma;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Calculadora calculadora = new Calculadora(Soma);
+        CalcOne calculadora = new CalcOne(new Soma());
         calculadora.setPreco1(2);
         calculadora.setPreco2(4);
-        calculadora.setOperacao(Soma);
+        System.out.println(calculadora.Calcular());
     }
 }

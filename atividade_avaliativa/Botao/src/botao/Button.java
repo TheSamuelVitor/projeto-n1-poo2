@@ -26,5 +26,5 @@ public class Button {
             acao.executar();
         }
     }
-    
+
 }

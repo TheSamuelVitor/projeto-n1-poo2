@@ -14,9 +14,10 @@ import java.util.List;
  */
 public class NotebookBase implements Notebooks {
 
-    //adicionando estrategica de pagamento
+    // adicionando estrategica de pagamento
     private Estrategia_Pagamento formaDePagamento;
-    //Adicionando os Observadores
+
+    // Adicionando os Observadores
     private final List<Observador> observadores = new ArrayList<>();
 
     @Override

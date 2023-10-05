@@ -16,7 +16,7 @@ public class Botao {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
+
         // Criando uma instância do botão
         Button botao = new Button();
 
@@ -31,9 +31,6 @@ public class Botao {
 
         // Simulando o clique do botão
         botao.clicar();
-     
-        
-        
-        
+
     }
 }
